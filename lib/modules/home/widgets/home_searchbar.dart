@@ -20,10 +20,13 @@ class HomeSearchbar extends StatelessWidget {
             SizedBox(width: 8),
             Expanded(
               child: TextField(
+                style: TextStyle(
+                  color: Colors.white,
+                ), 
                 decoration: InputDecoration(
                   hintText: 'Search for coffee...',
                   border: InputBorder.none,
-                  hintStyle: TextStyle(color: Colors.grey),
+                  hintStyle: TextStyle(color: Colors.white),
                 ),
               ),
             ),

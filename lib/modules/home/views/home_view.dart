@@ -164,7 +164,7 @@ class HomeView extends StatelessWidget {
           Align(
             alignment: Alignment.bottomCenter,
             child: Container(
-              color: Colors.amber,
+              color: const Color.fromARGB(255, 255, 255, 255),
               height: screenHeight * 0.42,
               width: screenWidth,
             ),
